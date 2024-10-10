@@ -27,6 +27,8 @@ classDiagram
     iPhone --> NavegadorInternet
 
     class main {
-    main --> iPhone
     }
+
+    main --> iPhone
+    
 ```
