@@ -16,7 +16,7 @@ classDiagram
     class NavegadorInternet {
         +abrirPagina(String url)
         +navegarPagina(String url)
-        +fecharPagina()
+        +atualizarPagina()
     }
 
     class iPhone {
@@ -25,4 +25,8 @@ classDiagram
     iPhone --> ReprodutorMusical
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
+
+    class main {
+    main --> iPhone
+    }
 ```
